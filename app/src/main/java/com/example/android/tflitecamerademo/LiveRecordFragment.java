@@ -714,8 +714,6 @@ public class LiveRecordFragment extends Fragment implements SurfaceHolder.Callba
         }
 
         super.onDestroy();
-        getActivity().finish();
-        System.exit(0);
     }
 
     private void SetCameraFPS(Camera.Parameters parameters) {
